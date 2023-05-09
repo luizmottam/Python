@@ -5,7 +5,7 @@ a1 = float(input("Nota do 1° Bimestre: "))
 
 notafinal_b1 = a1 * 0.4
 notaquefalta = (5 - notafinal_b1)/0.6
-print(f"Para passar você precisa tirar {notaquefalta} pontos")
+print(f"Para passar você precisa tirar {notaquefalta:.2f} pontos")
 os.system('pause') or None
 os.system('cls') or None
 
