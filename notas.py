@@ -9,9 +9,9 @@ ac = ["Arquitetura de Computadores", 5.63, 0]
 oc = ["Organização de Computadores", 6.3, 0]
 c2 = ["Cálculo II", 3.45, 0]
 es = ["Estrutura de Dados", 0, 0]
-tc = ["Metodologia de pesquisa", 1.73, 0]
+mp = ["Metodologia de pesquisa", 1.73, 0]
 
-materias = [tc, pi, ac, oc, c2, es, tc]
+materias = [tc, pi, ac, oc, c2, es, mp]
 os.system('cls') or None
 
 meta = float(input("Qual é a meta de pontos? "))
