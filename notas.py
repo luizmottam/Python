@@ -17,7 +17,7 @@ os.system('cls') or None
 meta = float(input("Qual é a meta de pontos? "))
 
 esp()
-for i in range(0, 6):
+for i in range(0, 7):
 
     if materias[i][1] == 0:
         print("Sem nota ainda")
